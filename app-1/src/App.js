@@ -10,7 +10,7 @@ class App extends Component {
   }
   handleInput(value) {
     this.setState({
-      input: value
+      input: value.target.value
     })
   }
 
